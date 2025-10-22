@@ -1,0 +1,8 @@
+DirectoryIndex genai_studio_app.py
+Options -Indexes
+
+<Files "genai_studio_app.py">
+    SetHandler mod_python
+    PythonHandler mod_python.publisher
+    PythonDebug On
+</Files>
