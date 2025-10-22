@@ -1,13 +1,8 @@
+cd /web/groups/gustyai/public_html
+cat > test_cgi.py << 'EOF'
 #!/usr/bin/env python3
 print("Content-Type: text/html\n")
-print("<h1>Index.py is running!</h1>")
-import sys
-sys.exit()  # Exit here to test
+print("<h1>CGI is working!</h1>")
+EOF
 
-import sys
-sys.path.insert(0, '/web/groups/gustyai/public_html')
-
-from genaiStudio_app import app
-from wsgiref.handlers import CGIHandler
-
-CGIHandler().run(app)
+chmod 755 test_cgi.py
