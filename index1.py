@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-print("Content-Type: text/html\n")
-print("<h1>Index.py is running!</h1>")
-import sys
-sys.exit()  # Exit here to test
 
 import sys
+import os
+
+# Add the directory to Python path
 sys.path.insert(0, '/web/groups/gustyai/public_html')
+os.chdir('/web/groups/gustyai/public_html')
 
 from genaiStudio_app import app
 from wsgiref.handlers import CGIHandler
