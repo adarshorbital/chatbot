@@ -1,0 +1,16 @@
+2025-10-22 15:38:00,328 - genaiStudio_app - WARNING - ⚠️  No API key found. Set GENAI_API_KEY environment variable.
+2025-10-22 15:38:00,329 - genaiStudio_app - INFO - 📚 Course: AAE 33301 and AAE 33401
+2025-10-22 15:38:00,329 - genaiStudio_app - INFO - 🤖 Model: gustyai
+2025-10-22 15:38:00,329 - genaiStudio_app - INFO - 📎 File upload: Enabled
+2025-10-22 15:38:00,329 - genaiStudio_app - WARNING - ⚠️  pandas not installed. CSV/Excel support disabled. Install with: pip install pandas openpyxl
+2025-10-22 15:38:00,329 - genaiStudio_app - INFO - 🚀 Running in production mode
+2025-10-22 15:38:00,329 - genaiStudio_app - INFO - 💡 For production deployment, use a WSGI server like Gunicorn:
+2025-10-22 15:38:00,329 - genaiStudio_app - INFO -    gunicorn -w 4 -b 0.0.0.0:5000 app:app
+2025-10-22 15:39:18,521 - genaiStudio_app - WARNING - ⚠️  No API key found. Set GENAI_API_KEY environment variable.
+2025-10-22 15:39:18,521 - genaiStudio_app - INFO - 📚 Course: AAE 33301 and AAE 33401
+2025-10-22 15:39:18,521 - genaiStudio_app - INFO - 🤖 Model: gustyai
+2025-10-22 15:39:18,521 - genaiStudio_app - INFO - 📎 File upload: Enabled
+2025-10-22 15:39:18,521 - genaiStudio_app - WARNING - ⚠️  pandas not installed. CSV/Excel support disabled. Install with: pip install pandas openpyxl
+2025-10-22 15:39:18,521 - genaiStudio_app - INFO - 🚀 Running in production mode
+2025-10-22 15:39:18,521 - genaiStudio_app - INFO - 💡 For production deployment, use a WSGI server like Gunicorn:
+2025-10-22 15:39:18,521 - genaiStudio_app - INFO -    gunicorn -w 4 -b 0.0.0.0:5000 app:app
